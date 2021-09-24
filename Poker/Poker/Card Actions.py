@@ -2,11 +2,10 @@
 import random
 
 def Shuffle():
-
+    #maybe try doing this with OOP in the future?
     Suit=["C","S","H","D"]
-    Suit_len = len(Suit)
     Rank= ["A","K","Q","J","10","9","8","7","6","5","4","3","2"]
-    Rank_len = len(Rank)
+    Suit_len, Rank_len = 4, 13
     Deck= []
 
     i=0
@@ -27,6 +26,7 @@ def Shuffle():
         y = random.randrange(0,52,1)
         #print(x)
         #print(y)
+        #need to put an iff statement in in case the x and why randomly pick the same
         z = Deck[x]
         Deck[x] = Deck[y]
         Deck[y] = z
@@ -42,9 +42,8 @@ def Card_Val():
 def Winning_Hand():
 
 def Texas_Holdem_Deal():
-    
+
 
 
 
 Shuffle()
-
