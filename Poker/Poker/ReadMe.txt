@@ -1,0 +1,1 @@
+Django file information links: https://docs.djangoproject.com/en/3.0/intro/tutorial01/
